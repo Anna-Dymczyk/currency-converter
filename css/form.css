@@ -1,0 +1,84 @@
+.form{
+    font-family: "Ubuntu";
+    font-size: 14px;  
+}
+
+.form__fieldset {
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.form__legend {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.form__paragraph {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.form__paragraph--text {
+    font-size: 12px;
+}
+
+.form__labelText {
+    display: inline-block;
+    width: 140px;
+}
+
+.form__field {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 200px;
+}
+
+.form__field--small {
+    max-width: 70px;
+    margin: 0px;
+}
+
+.form__buttonPlacement {
+    margin: 0px;
+    text-align: right;
+}
+
+.form__resetButton {
+    font-size: 10px;
+}
+
+.form__resultButton {
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(240, 240, 240);
+}
+
+.form__resultButton:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.form__resultButton:active {
+    background-color: rgb(104, 104, 104);
+    color: beige;
+    border-style: inset;
+}
+
+.form__result {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    min-height: 30px;
+    font-size: 30px;
+}
