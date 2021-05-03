@@ -6,3 +6,9 @@ html {
     box-sizing: inherit;
 }
 
+body{
+    background-image: url("../img/monety.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
